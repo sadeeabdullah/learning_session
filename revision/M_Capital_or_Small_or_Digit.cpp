@@ -6,7 +6,7 @@ int main()
     cin >> x;
 
     (x >= '0' && x <= '9')   ? cout << "IS DIGIT" << endl
-    : (x >= 'a' && x <= 'z') ? cout << "ALPHA\n IS SMALL"
-                             : cout << "ALPHA\n IS CAPITAL";
+    : (x >= 'a' && x <= 'z') ? cout << "ALPHA\nIS SMALL"
+                             : cout << "ALPHA\nIS CAPITAL";
     return 0;
 }
