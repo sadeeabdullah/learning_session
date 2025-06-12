@@ -19,7 +19,7 @@ int main()
         {
             for (int j = i + 1; j < n; j++)
             {
-                long long pair = a[i] + a[j] + j - i;
+                long long pair = a[i] + a[j] + (j - i);
                 if (pair < smallest_pair)
                 {
                     smallest_pair = pair;
@@ -27,7 +27,7 @@ int main()
             }
         }
 
-        cout << smallest_pair;
+        cout << smallest_pair << endl;
     }
     return 0;
 }
