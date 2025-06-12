@@ -1,4 +1,6 @@
-3
-10 20 10
 5
-60 40
+Asif 29 95
+Sakib 55 89
+Zubair 57 93
+Ahsan 39 86
+Joy 12 99
